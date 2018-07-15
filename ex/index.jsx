@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-// import {Primeiro, Segundo} from './component'
-import SilvaFamily, { Segundo} from './silvaFamily'
+import Family, { Segundo} from './famaly'
+import Member from './member'
 
-// Todo componente em react pode ser uma function ou uma class
 
 ReactDom.render(
-    <div>
-        <SilvaFamily/>
-    </div>,
+    <Family>
+        <Member name="Guilherme" lastName="Silva"/>
+    </Family>,
     document.getElementById('root')
 )
