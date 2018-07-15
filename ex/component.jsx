@@ -1,12 +1,9 @@
 import React from 'react'
 
-/** 
- * export default function(){
- *     return <h1>Primeiro componente</h1>
- * }
- ** podemos simplificar esta função usando da forma abaixo
- **/
-
-export default () => (
-    <h1>Primeiro componente!</h1>
+export default props => (
+    <h1>Primeiro Componente</h1>
 )
+
+export const Segundo = props => <h1>Segundo Componente</h1>
+
+// export {Primeiro, Segundo}
