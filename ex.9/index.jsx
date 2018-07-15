@@ -3,6 +3,6 @@ import ReactDom from 'react-dom'
 import ClassComponent from './classComponent'
 
 ReactDom.render(
-    <ClassComponent label="contador" initialValue={10}/> ,
+    <ClassComponent value="React"/> ,
     document.getElementById('root')
 )
