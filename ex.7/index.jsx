@@ -7,8 +7,6 @@ import Member from './member'
 ReactDom.render(
     <Family lastName="Silva">
         <Member name="Guilherme"/>
-        <Member name="Fagner"/>
-        <Member name="Felipe"/>
     </Family>,
     document.getElementById('root')
 )
